@@ -11,6 +11,10 @@ body {
 header {
     height: 100px;
     background-color: antiquewhite;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
 }
 
 nav {
@@ -33,4 +37,9 @@ footer {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
+}
+
+#drop-down {
+    float: right;
+    border: red solid 2px;
 }
